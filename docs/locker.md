@@ -20,7 +20,7 @@ Our Locker **generates a separate contract for every chunk of locked funds** for
 After the tokens are locked in our contract, you will receive an ERC-721 NFT token to represent the locked funds. This NFT can be transferred to other wallets or sold if desired — a transfer of the token does not unlock funds, but **whoever holds the token is the only person who can withdraw the locked tokens once they are released**. 
 
 **Do not burn or lose your NFT.** If this happens, it will be *impossible* to withdraw the locked tokens, ever.
-## Optional Governance Unlock
+## Governance Unlock
 When locking tokens, projects may choose to allow RugDoc to prematurely release their funds before the lockout period is over. **This can only be executed by RugDoc herself on request**, and such requests are only granted after a careful review of the  projects' individual circumstances (e.g. if they have to re-deploy due to a bug but already locked liquidity).
 
 Governance can never withdraw tokens to their wallet, **the only account which can withdraw funds after they were unlocked is the [NFT](#lock-share-nft) holder**
