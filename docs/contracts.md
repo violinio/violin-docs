@@ -8,13 +8,16 @@ Once we are live, we will list our official contracts for each blockchain here.
 
 <!-- tabs:start -->
 
+## **Arbitrum**
 ## **Avalanche**
 ## **BSC**
 ## **Celo**
 ## **Fantom**
+## **Harmony One**
 ## **HECO**
 ## **KCC**
 ## **Moonriver**
+## **Optimism**
 ## **Polygon**
 ## **XDAI**
 
