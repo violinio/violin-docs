@@ -8,9 +8,10 @@ To bring security to you everywhere, we aim to support as many blockchains as po
 Our Token Locker allows users (typically DeFi projects) to deposit tokens into a specialized contract which only allows them to be withdrawn after a certain amount of time. For more details, visit [Locker](locker.md).
 
 ## Vaults (soon)
-Vaults allow you to 
+Vaults are Violin's main feature. They allow you to stake funds into other DeFi smart contracts via our user interface. They automatically harvest and compound your tokens, so they are a great way to save on both time and transaction costs! 
 
 ## Zaps (planned)
+Zaps are a convenience feature that lets you deposit any token into a Vault — all the swapping and liquidity pooling is done behind the scenes by our Zap contract.
 
 # Contracts
 Before approving any deposit of funds on our website, we recommend to double-check that you are interacting with our official [Contracts](contracts.md).
