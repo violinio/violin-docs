@@ -5,9 +5,10 @@ To bring security to you everywhere, we aim to support as many blockchains as po
 
 # Features and Roadmap
 ## Token Locker
-Our Token Locker allows users (typically DeFi projects) to deposit tokens into a specialized contract that only allows them to be withdrawn after a certain amount of time. For more details, visit [Locker](locker.md).
+Our Token Locker allows users (typically DeFi projects) to deposit tokens into a specialized contract which only allows them to be withdrawn after a certain amount of time. For more details, visit [Locker](locker.md).
 
-## Vaults (planned)
+## Vaults (soon)
+Vaults allow you to 
 
 ## Zaps (planned)
 
