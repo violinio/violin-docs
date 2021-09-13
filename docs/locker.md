@@ -17,7 +17,7 @@ To guarantee users are safe from the second type of scam, many projects deposit 
 ## Holding contracts
 Our Locker **generates a separate contract every time users lock funds** for maximum security. By interacting directly with the smart contract, projects may choose to save some gas by depositing tokens directly into the Locker contract, but this may cause issues in rare cases (such as tokens that change balance on their own, see [Notes](#notes)).
 
-?> Note that these contracts will be unverified but Violin will verify at least one, so most chain explorers will find matching byte code. You can also check the vault contract to verify the holding contracts will not lead to loss of funds.
+?> Note that these contracts will be unverified but Violin will verify at least one, so most chain explorers will find matching byte code. You can also check the vault contract to verify the holding contracts will not lead to loss of funds. Always check either the frontend or the vault contract to ensure the holding contract was created by Violin and to figure out the actual unlock time
 ## Lock share NFT
 After the tokens are locked in our contract, you will receive an ERC-721 NFT token to represent the locked funds. This NFT can be transferred to other wallets or sold if desired — a transfer of the token does not unlock funds, but **whoever holds the NFT is the only person who can withdraw the locked tokens once they are released**. The NFT is burned upon withdrawal.
 
