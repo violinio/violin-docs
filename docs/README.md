@@ -11,7 +11,7 @@ Our Token Locker allows users (typically DeFi projects) to deposit tokens into a
 Vaults are Violin's main feature. They allow you to stake funds into other DeFi smart contracts via our user interface and smart contracts. Vaults automatically harvest and compound your funds, so they are a great way to save on both time and transaction costs! 
 
 ## Zaps (planned)
-Zaps are a convenience feature that lets you deposit any token into a Vault — all the swapping and liquidity pooling is done behind the scenes by our Zap contract.
+Zaps are a convenience feature that lets you deposit any token into a Vault — all the swapping and liquidity pooling is done behind the scenes by our Zap contract. All you need is the token you are looking to deposit. 
 
-# Contracts
+## Contracts
 Before approving any deposit of funds on our website, we recommend to double-check that you are interacting with our official [Contracts](contracts.md).
