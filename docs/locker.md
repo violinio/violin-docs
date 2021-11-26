@@ -1,14 +1,13 @@
 # Token Locker
-Our Token Locker allows users (typically DeFi projects) to deposit tokens into a specialized contract which only allows them to be withdrawn after a certain amount of time. For more details, visit [Locker](locker.md).
+Our Token Locker allows users (typically DeFi projects) to deposit tokens into a specialized contract which only allows them to be withdrawn after a certain amount of time. Read on for reaons why this is done and how you can lock your own tokens with us.
 # Why Lockers?
 ## Soft rugs
-One of the most common ways shady DeFi projects scam users is with so-called **soft rugs**. A soft rug refers to a project's dev team trashing the price of the native token in some way to abscond with the money. There are two typical ways for this to be executed: **first**, projects may simply *mint a large number of native tokens* and sell them; **second**, projects may initially set up a large liquidity pool (e.g. native/USDC) to attract funds, but then *redeem the pool shares* and sell all of their native tokens.
+Lockers are an effective method to combat one of the most common scams in defi, the soft rug. There are a few ways projects can go about this method of scam, but Lockers can help to negate a couple of these methods directly: the liquidity pull and the dumping of native tokens. The liquidity pull refers to a project withdrawing the liquidity of their native token and redeeming it, most often after the project has gained some traction and the pool has grown since their intial contribution. The dumping of native tokens refers to instances where a project has minted a large portion of their native token to themselves/their team members. Then when the token price has risen due to price action, they will either dump en masse in a large sell off, tanking the price, or they will sell in smaller sustained portions which generally does not allow the token price to recover.  
 
 ## Lockers to the rescue
-To guarantee users are safe from the second type of scam, many projects deposit their LP tokens into a special type of smart contract called a "Locker". This contract will ensure that the project team **is unable to redeem their liquidity pool shares** until the lockup period has ended. Liquidity locking is an important part of protecting DeFi users and generally viewed as a signal of the devs' long-term commitment. 
+To help guarantee users safety, many projects deposit their LP/Native tokens into a special type of smart contract called a "Locker". Lockers help solve both of the aforementioned rug methods with a very simple mechanic: the team locks the liquidity tokens or the native token in Violin lockers and therefore cannot access them for means of sell offs.
 
-?>Some projects may also choose to mint a certain number of tokens as a reward for their core team, but lock them for a certain amount of time to reassure users that they will not simply dump them
-
+!>Disclaimer: Please bear in mind that though we are using our tools and knowledge to best combat these rug methods, nothing is foolproof and everything in Defi carries inherent risk. You are always responsible for your own financial decisions and doing your own due diligence. 
 
 ## Our contribution
 **As our gift to the community, we offer projects the ability to lock tokens in a secure smart contract for free**. RugDoc encourages all DeFi projects to lock their initial native token liquidity and Violin's locker feature is our way to make sure this is available to every project, no matter the size.
